@@ -11,8 +11,8 @@ const UseRef = () => {
     return (
         <div>
             <h1>Pedro</h1>
-            <input type="text" name="" id="" placeholder='Ex...' ref={inputRef} onClick={onClick} />
-            <button>Change Name</button>
+            <input type="text" name="" id="" placeholder='Ex...' ref={inputRef} />
+            <button onClick={onClick}>Change Name</button>
         </div>
     )
 }
