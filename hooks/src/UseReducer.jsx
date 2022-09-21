@@ -2,9 +2,13 @@ import React, { useReducer } from 'react';
 
 
 const UseReducer = () => {
-  return (
-    <div>UseReducer</div>
-  )
+    const [state, dispatch] = useReducer(reducer, {count: 0, showText: true});
+
+    return (
+        <div>
+            
+        </div>
+    )
 }
 
 export default UseReducer;
