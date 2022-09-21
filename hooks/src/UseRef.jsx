@@ -12,7 +12,9 @@ const UseRef = () => {
         <div>
             <h1>Pedro</h1>
             <input type="text" name="" id="" placeholder='Ex...' ref={inputRef} />
-            <button onClick={onClick}>Change Name</button>
+            <button 
+                onClick={onClick}
+            >Change Name</button>
         </div>
     )
 }
