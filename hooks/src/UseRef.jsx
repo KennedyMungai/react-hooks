@@ -4,6 +4,10 @@ import React, { useRef } from 'react';
 const UseRef = () => {
     const inputRef = useRef(null);
 
+    const onClick = () => {
+        
+    };
+
     return (
         <div>
             <h1>Pedro</h1>
