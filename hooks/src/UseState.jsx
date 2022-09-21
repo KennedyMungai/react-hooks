@@ -4,8 +4,8 @@ import React, { useState } from 'react';
 const UseState = () => {
     const [inputValue, setInputValue] = useState("Shapoopie");
 
-    const onChange = () => {
-        
+    const onChange = (event) => {
+        setInputValue(event.target.value);
     };
 
     return (
