@@ -3,9 +3,14 @@ import axios from 'axios';
 
 
 const UseEffect = () => {
-  return (
-    <div>UseEffect</div>
-  )
+    useEffect(() => {
+
+    }, []);
+    
+
+    return (
+        <div>UseEffect</div>
+    )
 }
 
 export default UseEffect;
