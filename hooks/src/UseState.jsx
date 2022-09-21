@@ -10,7 +10,7 @@ const UseState = () => {
 
     return (
         <div>
-            <input type="text" placeholder='Enter some text' onChange={onChange} />
+            <input type="text" placeholder='Enter some text....' onChange={onChange} />
             {inputValue}
         </div>
     )
