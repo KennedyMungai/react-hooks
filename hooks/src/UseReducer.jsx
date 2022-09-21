@@ -17,7 +17,10 @@ const UseReducer = () => {
 
     return (
         <div>
-            
+            <h1>{state.count}</h1>
+            <button>Click Here</button>
+
+            {state.showText && <h5>This is text</h5>}
         </div>
     )
 }
