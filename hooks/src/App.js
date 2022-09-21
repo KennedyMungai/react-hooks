@@ -11,6 +11,7 @@ function App() {
       {/* <UseState /> */}
       {/* <UseReducer /> */}
       {/* <UseEffect /> */}
+      <UseRef />
     </div>
   );
 }
