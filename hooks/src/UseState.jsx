@@ -2,15 +2,12 @@ import React, { useState } from 'react';
 
 
 const UseState = () => {
-    const [counter, setCounter] = useState(0);
-
-    const counterFunc = () => {
-        setCounter(counter + 1);
-    };
+    const [inputValue, setInputValue] = useState("Shapoopie");
 
     return (
         <div>
-            <button onClick={counterFunc}>{counter}</button>
+            <input type="text" placeholder='Enter some text' />
+            {inputValue}
         </div>
     )
 }
