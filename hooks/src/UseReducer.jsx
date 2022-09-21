@@ -19,7 +19,10 @@ const UseReducer = () => {
         <div>
             <h1>{state.count}</h1>
             <button
-                onClick={dispatch({type: "INCREMENT"})}
+                onClick={() => {
+                    dispatch({type: "INCREMENT"});
+                    dispatch({type:"toggleShowText"});
+                }}
             >Click Here</button>
 
             {state.showText && <h5>This is text</h5>}
