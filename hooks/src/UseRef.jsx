@@ -5,13 +5,13 @@ const UseRef = () => {
     const inputRef = useRef(null);
 
     const onClick = () => {
-        
+
     };
 
     return (
         <div>
             <h1>Pedro</h1>
-            <input type="text" name="" id="" placeholder='Ex...' ref={inputRef} />
+            <input type="text" name="" id="" placeholder='Ex...' ref={inputRef} onClick={onClick} />
             <button>Change Name</button>
         </div>
     )
