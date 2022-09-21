@@ -1,10 +1,16 @@
 import React, { useLayoutEffect } from 'react';
 
 
-const useLayoutEffect = () => {
-  return (
-    <div>useLayoutEffect</div>
-  )
+const useLayoutEffectFunc = () => {
+    useLayoutEffect(() => {
+
+    }, [])
+
+    return (
+        <div>
+            
+        </div>
+    )
 }
 
-export default useLayoutEffect;
+export default useLayoutEffectFunc;
