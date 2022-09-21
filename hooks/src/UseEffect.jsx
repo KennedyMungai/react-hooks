@@ -4,12 +4,14 @@ import axios from 'axios';
 
 const UseEffect = () => {
     useEffect(() => {
-
+        const comments = axios.get("https://jsonplaceholder.typicode.com/comments");
     }, []);
     
 
     return (
-        <div>UseEffect</div>
+        <div>
+            
+        </div>
     )
 }
 
